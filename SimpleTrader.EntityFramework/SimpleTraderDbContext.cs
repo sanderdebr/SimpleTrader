@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using SimpleTrader.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace SimpleTrader.EntityFramework
 {
@@ -12,18 +9,14 @@ namespace SimpleTrader.EntityFramework
         public DbSet<Account> Accounts { get; set; }
         public DbSet<AssetTransaction> AssetTransactions { get; set; }
 
+        public SimpleTraderDbContext(DbContextOptions options) : base(options) { }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Embed stock inside AssetTransaction table
             modelBuilder.Entity<AssetTransaction>().OwnsOne(a => a.Stock);
 
             base.OnModelCreating(modelBuilder);
-        }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=SimpleTraderDB;Trusted_Connection=True;");
-            base.OnConfiguring(optionsBuilder);
         }
     }
 }
