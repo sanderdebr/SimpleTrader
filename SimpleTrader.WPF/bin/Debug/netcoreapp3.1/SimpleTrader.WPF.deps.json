@@ -9,7 +9,8 @@
       "SimpleTrader.WPF/1.0.0": {
         "dependencies": {
           "SimpleTrader.Domain": "1.0.0",
-          "SimpleTrader.EntityFramework": "1.0.0"
+          "SimpleTrader.EntityFramework": "1.0.0",
+          "SimpleTrader.FinancialModelingPrepAPI": "1.0.0"
         },
         "runtime": {
           "SimpleTrader.WPF.dll": {}
@@ -196,6 +197,14 @@
         "dependencies": {
           "System.Security.AccessControl": "4.5.0",
           "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -502,6 +511,15 @@
         "runtime": {
           "SimpleTrader.EntityFramework.dll": {}
         }
+      },
+      "SimpleTrader.FinancialModelingPrepAPI/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "SimpleTrader.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SimpleTrader.FinancialModelingPrepAPI.dll": {}
+        }
       }
     }
   },
@@ -643,6 +661,13 @@
       "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
     "Remotion.Linq/2.2.0": {
       "type": "package",
@@ -902,6 +927,11 @@
       "sha512": ""
     },
     "SimpleTrader.EntityFramework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleTrader.FinancialModelingPrepAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -54,3 +54,6 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\View
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\PortfolioView.g.cs
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\HomeView.baml
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\PortfolioView.baml
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\netcoreapp3.1\SimpleTrader.FinancialModelingPrepAPI.dll
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\netcoreapp3.1\SimpleTrader.FinancialModelingPrepAPI.pdb
