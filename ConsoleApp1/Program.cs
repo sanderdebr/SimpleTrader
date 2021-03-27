@@ -12,7 +12,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             IDataService<User> userService = new GenericDataService<User>(new SimpleTraderDbContextFactory());
-            Console.WriteLine(userService.GetAll().Result.Count());
+            Console.WriteLine(userService.Delete(1).Result);
         }
     }
 }
