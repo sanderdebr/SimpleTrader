@@ -57,3 +57,8 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\View
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\netcoreapp3.1\SimpleTrader.FinancialModelingPrepAPI.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\netcoreapp3.1\SimpleTrader.FinancialModelingPrepAPI.pdb
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Styles\NavigationBar.baml
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexCard.g.cs
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexCard.baml
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexListing.g.cs
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexListing.baml

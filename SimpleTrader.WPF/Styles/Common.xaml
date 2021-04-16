@@ -2,8 +2,8 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:SimpleTrader.WPF.Styles">
     <!-- Colors -->
-    <Color x:Key="ColorPrimary1">LightGreen</Color>
-    <Color x:Key="ColorPrimary2">DarkGreen</Color>
+    <Color x:Key="ColorPrimary1">#2a9d8f</Color>
+    <Color x:Key="ColorPrimary2">#264653</Color>
     
     <!-- Brushes -->
     <SolidColorBrush x:Key="BrushPrimary1" Color="{StaticResource ColorPrimary1}"/>
