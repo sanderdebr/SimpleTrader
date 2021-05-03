@@ -21,6 +21,8 @@ namespace SimpleTrader.WPF
             window.DataContext = new MainViewModel();
             window.Show();
 
+            new StockPriceService().GetPrice("fwafwawf");
+
             base.OnStartup(e);
         }
     }

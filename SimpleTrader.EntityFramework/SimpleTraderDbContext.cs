@@ -14,7 +14,7 @@ namespace SimpleTrader.EntityFramework
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Embed stock inside AssetTransaction table
-            modelBuilder.Entity<AssetTransaction>().OwnsOne(a => a.Stock);
+            modelBuilder.Entity<AssetTransaction>().OwnsOne(a => a.Asset);
 
             base.OnModelCreating(modelBuilder);
         }

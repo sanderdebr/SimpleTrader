@@ -29,11 +29,11 @@ namespace SimpleTrader.WPF.ViewModels
         {
             get
             {
-                return _dowJones;
+                return _nasDaq;
             }
             set
             {
-                _dowJones = value;
+                _nasDaq = value;
                 OnPropertyChanged(nameof(Nasdaq));
             }
         }
@@ -47,7 +47,7 @@ namespace SimpleTrader.WPF.ViewModels
             }
             set
             {
-                _dowJones = value;
+                _sp500 = value;
                 OnPropertyChanged(nameof(SP500));
             }
         }
