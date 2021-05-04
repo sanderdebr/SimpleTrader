@@ -62,3 +62,5 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Cont
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexCard.baml
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexListing.g.cs
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Controls\MajorIndexListing.baml
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\BuyView.g.cs
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\BuyView.baml
