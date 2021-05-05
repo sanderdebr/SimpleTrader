@@ -1,5 +1,5 @@
 ﻿SimpleTrader.WPF
-
+1.0.0.0
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\App.xaml
 9112161404
 
-28-121328305
+301575542972
 215-1998083326
 Controls\MajorIndexCard.xaml;Controls\MajorIndexListing.xaml;Controls\NavigationBar.xaml;MainWindow.xaml;Styles\Common.xaml;Styles\NavigationBar.xaml;Views\BuyView.xaml;Views\HomeView.xaml;Views\PortfolioView.xaml;
 
-False
+True
 
