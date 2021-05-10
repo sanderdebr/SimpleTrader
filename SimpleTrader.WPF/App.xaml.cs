@@ -4,9 +4,11 @@ using SimpleTrader.Domain.Models;
 using SimpleTrader.Domain.Services;
 using SimpleTrader.Domain.Services.AuthenticationServices;
 using SimpleTrader.Domain.Services.TransactionServices;
+using SimpleTrader.Domain.Tests.Services.AuthenticationServices;
 using SimpleTrader.EntityFramework;
 using SimpleTrader.EntityFramework.Services;
 using SimpleTrader.FinancialModelingPrepAPI.Services;
+using SimpleTrader.WPF.State.Authenticators;
 using SimpleTrader.WPF.State.Navigators;
 using SimpleTrader.WPF.ViewModels;
 using SimpleTrader.WPF.ViewModels.Factories;
@@ -20,11 +22,10 @@ namespace SimpleTrader.WPF
     /// </summary>
     public partial class App : Application
     {
-        protected override async void OnStartup(StartupEventArgs e)
+        protected override void OnStartup(StartupEventArgs e)
         {
             IServiceProvider serviceProvider = CreateServiceProvider();
             IAuthenticationService authentication = serviceProvider.GetRequiredService<IAuthenticationService>();
-            await authentication.Login("berend22", "Test123");
 
             Window window = serviceProvider.GetRequiredService<MainWindow>();
             window.Show();
@@ -54,8 +55,10 @@ namespace SimpleTrader.WPF
             services.AddSingleton<ISimpleTraderViewModelFactory<HomeViewModel>, HomeViewModelFactory>();
             services.AddSingleton<ISimpleTraderViewModelFactory<PortfolioViewModel>, PortfolioViewModelFactory>();
             services.AddSingleton<ISimpleTraderViewModelFactory<MajorIndexListingViewModel>, MajorIndexListingViewModelFactory>();
+            services.AddSingleton<ISimpleTraderViewModelFactory<LoginViewModel>, LoginViewModelFactory>();
 
             services.AddScoped<INavigator, Navigator>();
+            services.AddScoped<IAuthenticator, Authenticator>();
             services.AddScoped<MainViewModel>();
             services.AddScoped<BuyViewModel>();
 

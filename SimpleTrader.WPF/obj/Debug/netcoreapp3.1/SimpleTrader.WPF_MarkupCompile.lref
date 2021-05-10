@@ -1,4 +1,4 @@
-﻿C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+﻿
 FC:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\App.xaml;;
 FC:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\Controls\MajorIndexCard.xaml;;
 FC:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\Controls\MajorIndexListing.xaml;;
@@ -8,5 +8,6 @@ FC:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\Styles\Common.xaml;;
 FC:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\Styles\NavigationBar.xaml;;
 FC:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\Views\BuyView.xaml;;
 FC:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\Views\HomeView.xaml;;
+FC:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\Views\LoginView.xaml;;
 FC:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\Views\PortfolioView.xaml;;
 

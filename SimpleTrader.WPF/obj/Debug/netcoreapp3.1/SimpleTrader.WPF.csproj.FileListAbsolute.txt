@@ -65,3 +65,5 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Cont
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\BuyView.g.cs
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\BuyView.baml
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\LoginView.g.cs
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\netcoreapp3.1\Views\LoginView.baml
