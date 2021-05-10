@@ -24,7 +24,7 @@ namespace SimpleTrader.WPF
         {
             IServiceProvider serviceProvider = CreateServiceProvider();
             IAuthenticationService authentication = serviceProvider.GetRequiredService<IAuthenticationService>();
-            authentication.Login("berend22", "Test123");
+            await authentication.Login("berend22", "Test123");
 
             Window window = serviceProvider.GetRequiredService<MainWindow>();
             window.Show();
