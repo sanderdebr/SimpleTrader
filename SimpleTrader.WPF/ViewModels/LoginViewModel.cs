@@ -15,16 +15,26 @@ namespace SimpleTrader.WPF.ViewModels
         public string Username
         {
             get { return _username; }
-            set {
+            set
+            {
                 _username = value;
                 OnPropertyChanged(nameof(Username));
             }
+        }
+
+        public MessageViewModel ErrorMessageViewModel { get; }
+
+        public string ErrorMessage
+        {
+            set => ErrorMessageViewModel.Message = value;
         }
 
         public ICommand LoginCommand { get; }
 
         public LoginViewModel(IAuthenticator authenticator, IRenavigator renavigator)
         {
+            ErrorMessageViewModel = new MessageViewModel();
+
             LoginCommand = new LoginCommand(this, authenticator, renavigator);
         }
     }

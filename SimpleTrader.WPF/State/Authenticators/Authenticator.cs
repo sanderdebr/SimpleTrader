@@ -36,20 +36,9 @@ namespace SimpleTrader.Domain.Tests.Services.AuthenticationServices
 
         public event Action StateChanged;
 
-        public async Task<bool> Login(string username, string password)
+        public async Task Login(string username, string password)
         {
-            bool success = true;
-
-            try
-            {
-                CurrentAccount = await _authenticationService.Login(username, password);
-            }
-            catch (Exception)
-            {
-                return false;
-            }
-
-            return success;
+            CurrentAccount = await _authenticationService.Login(username, password);
         }
 
         public void Logout()

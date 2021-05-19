@@ -70,12 +70,29 @@ namespace SimpleTrader.WPF.ViewModels
             }
         }
 
+        public MessageViewModel ErrorMessageViewModel { get; }
+
+        public string ErrorMessage
+        {
+            set => ErrorMessageViewModel.Message = value;
+        }
+
+        public MessageViewModel StaticMessageViewModel { get; }
+
+        public string StatusMessage
+        {
+            set => StaticMessageViewModel.Message = value;
+        }
+
         public ICommand SearchSymbolCommand { get; set; }
 
         public ICommand BuyStockCommand { get; set; }
 
         public BuyViewModel(IStockPriceService stockPriceService, IBuyStockService buyStockService, IAccountStore accountStore)
         {
+            ErrorMessageViewModel = new MessageViewModel();
+            StaticMessageViewModel = new MessageViewModel();
+
             SearchSymbolCommand = new SearchSymbolCommand(this, stockPriceService);
             BuyStockCommand = new BuyStockCommand(this, buyStockService, accountStore);
         }

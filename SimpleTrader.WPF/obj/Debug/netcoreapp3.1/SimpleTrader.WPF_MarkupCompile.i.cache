@@ -12,9 +12,9 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\App.xaml
 11-371948143
 
-381475301623
+40157697423
 215-1998083326
 Controls\AssetSummary.xaml;Controls\MajorIndexCard.xaml;Controls\MajorIndexListing.xaml;Controls\NavigationBar.xaml;MainWindow.xaml;Styles\Common.xaml;Styles\NavigationBar.xaml;Views\BuyView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\PortfolioView.xaml;
 
-False
+True
 

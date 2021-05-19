@@ -1,14 +1,16 @@
-﻿using SimpleTrader.WPF.State.Authenticators;
+﻿using SimpleTrader.Domain.Exceptions;
+using SimpleTrader.WPF.State.Authenticators;
 using SimpleTrader.WPF.State.Navigators;
 using SimpleTrader.WPF.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace SimpleTrader.WPF.Commands
 {
-    public class LoginCommand : ICommand
+    public class LoginCommand : AsyncCommandBase
     {
         private readonly LoginViewModel _loginViewModel;
         private readonly IRenavigator _renavigator;
@@ -22,20 +24,26 @@ namespace SimpleTrader.WPF.Commands
             _authenticator = authenticator;
         }
 
-        public event EventHandler CanExecuteChanged;
-
-        public bool CanExecute(object parameter)
+        public override async Task ExecuteAsync(object parameter)
         {
-            return true;
-        }
+            _loginViewModel.ErrorMessage = string.Empty;
 
-        public async void Execute(object parameter)
-        {
-            bool success = await _authenticator.Login(_loginViewModel.Username, parameter.ToString());
-
-            if (success)
+            try
             {
-                _renavigator.Renavigate(); 
+                await _authenticator.Login(_loginViewModel.Username, parameter.ToString());
+                _renavigator.Renavigate();
+            }
+            catch (UserNotFoundException)
+            {
+                _loginViewModel.ErrorMessage = "Username does not exists.";
+            }
+            catch (InvalidPasswordException)
+            {
+                _loginViewModel.ErrorMessage = "Incorrect password.";
+            }
+            catch (Exception)
+            {
+                _loginViewModel.ErrorMessage = "Login Failed.";
             }
         }
     }
