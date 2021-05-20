@@ -15,19 +15,22 @@ namespace SimpleTrader.EntityFramework.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
+                .HasAnnotation("ProductVersion", "5.0.6")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("SimpleTrader.Domain.Models.Account", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AccountHolderId");
+                    b.Property<int?>("AccountHolderId")
+                        .HasColumnType("int");
 
-                    b.Property<double>("Balance");
+                    b.Property<double>("Balance")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -40,15 +43,20 @@ namespace SimpleTrader.EntityFramework.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AccountId");
+                    b.Property<int?>("AccountId")
+                        .HasColumnType("int");
 
-                    b.Property<DateTime>("DateProcessed");
+                    b.Property<DateTime>("DateProcessed")
+                        .HasColumnType("datetime2");
 
-                    b.Property<bool>("IsPurchase");
+                    b.Property<bool>("IsPurchase")
+                        .HasColumnType("bit");
 
-                    b.Property<int>("Shares");
+                    b.Property<int>("Shares")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -61,15 +69,20 @@ namespace SimpleTrader.EntityFramework.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<DateTime>("DateJoined");
+                    b.Property<DateTime>("DateJoined")
+                        .HasColumnType("datetime2");
 
-                    b.Property<string>("Email");
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PasswordHash");
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Username");
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -81,6 +94,8 @@ namespace SimpleTrader.EntityFramework.Migrations
                     b.HasOne("SimpleTrader.Domain.Models.User", "AccountHolder")
                         .WithMany()
                         .HasForeignKey("AccountHolderId");
+
+                    b.Navigation("AccountHolder");
                 });
 
             modelBuilder.Entity("SimpleTrader.Domain.Models.AssetTransaction", b =>
@@ -93,21 +108,31 @@ namespace SimpleTrader.EntityFramework.Migrations
                         {
                             b1.Property<int>("AssetTransactionId")
                                 .ValueGeneratedOnAdd()
+                                .HasColumnType("int")
                                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                            b1.Property<double>("PricePerShare");
+                            b1.Property<double>("PricePerShare")
+                                .HasColumnType("float");
 
-                            b1.Property<string>("Symbol");
+                            b1.Property<string>("Symbol")
+                                .HasColumnType("nvarchar(max)");
 
                             b1.HasKey("AssetTransactionId");
 
                             b1.ToTable("AssetTransactions");
 
-                            b1.HasOne("SimpleTrader.Domain.Models.AssetTransaction")
-                                .WithOne("Asset")
-                                .HasForeignKey("SimpleTrader.Domain.Models.Asset", "AssetTransactionId")
-                                .OnDelete(DeleteBehavior.Cascade);
+                            b1.WithOwner()
+                                .HasForeignKey("AssetTransactionId");
                         });
+
+                    b.Navigation("Account");
+
+                    b.Navigation("Asset");
+                });
+
+            modelBuilder.Entity("SimpleTrader.Domain.Models.Account", b =>
+                {
+                    b.Navigation("AssetTransactions");
                 });
 #pragma warning restore 612, 618
         }

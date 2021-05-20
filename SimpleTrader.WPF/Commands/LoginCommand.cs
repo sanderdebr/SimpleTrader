@@ -15,7 +15,6 @@ namespace SimpleTrader.WPF.Commands
         private readonly LoginViewModel _loginViewModel;
         private readonly IRenavigator _renavigator;
         private readonly IAuthenticator _authenticator;
-        private readonly INavigator _navigator;
 
         public LoginCommand(LoginViewModel loginViewModel, IAuthenticator authenticator, IRenavigator renavigator)
         {
@@ -30,7 +29,8 @@ namespace SimpleTrader.WPF.Commands
 
             try
             {
-                await _authenticator.Login(_loginViewModel.Username, parameter.ToString());
+                await _authenticator.Login(_loginViewModel.Username, _loginViewModel.Password);
+
                 _renavigator.Renavigate();
             }
             catch (UserNotFoundException)

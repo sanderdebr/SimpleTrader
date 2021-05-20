@@ -99,3 +99,5 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain.Tests\bin\Debug\netcoreap
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain.Tests\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain.Tests\bin\Debug\netcoreapp3.1\SimpleTrader.Domain.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain.Tests\bin\Debug\netcoreapp3.1\SimpleTrader.Domain.pdb
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain.Tests\bin\Debug\netcoreapp3.1\testhost.exe
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain.Tests\bin\Debug\netcoreapp3.1\nunit.engine.core.dll

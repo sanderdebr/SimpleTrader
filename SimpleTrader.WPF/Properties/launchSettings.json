@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SimpleTrader.WPF": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "FINANCE_API_KEY": "e4b49a28379da98c0caf6cec14bdc989"
+      }
+    }
+  }
+}
