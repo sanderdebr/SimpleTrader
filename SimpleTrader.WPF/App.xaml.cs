@@ -53,12 +53,14 @@ namespace SimpleTrader.WPF
 
                     string connectionString = context.Configuration.GetConnectionString("default");
                     services.AddDbContext<SimpleTraderDbContext>(o => o.UseSqlServer(connectionString));
+
                     services.AddSingleton<SimpleTraderDbContextFactory>(new SimpleTraderDbContextFactory(connectionString));
                     services.AddSingleton<IAuthenticationService, AuthenticationService>();
                     services.AddSingleton<IDataService<Account>, AccountDataService>();
                     services.AddSingleton<IAccountService, AccountDataService>();
                     services.AddSingleton<IStockPriceService, StockPriceService>();
                     services.AddSingleton<IBuyStockService, BuyStockService>();
+                    services.AddSingleton<ISellStockService, SellStockService>();
                     services.AddSingleton<IMajorIndexService, MajorIndexService>();
 
                     services.AddSingleton<IPasswordHasher, PasswordHasher>();
@@ -87,9 +89,14 @@ namespace SimpleTrader.WPF
                         return () => services.GetRequiredService<PortfolioViewModel>();
                     });
 
+                    services.AddSingleton<ViewModelDelegateRenavigator<LoginViewModel>>();
                     services.AddSingleton<CreateViewModel<RegisterViewModel>>(services =>
                     {
-                        return () => new RegisterViewModel();
+                        return () => new RegisterViewModel(
+                            services.GetRequiredService<IAuthenticator>(),
+                            services.GetRequiredService<ViewModelDelegateRenavigator<LoginViewModel>>(),
+                            services.GetRequiredService<ViewModelDelegateRenavigator<LoginViewModel>>()
+                            );
                     });
 
                     services.AddSingleton<ViewModelDelegateRenavigator<HomeViewModel>>();
@@ -106,9 +113,8 @@ namespace SimpleTrader.WPF
                     services.AddSingleton<IAuthenticator, Authenticator>();
                     services.AddSingleton<IAccountStore, AccountStore>();
                     services.AddSingleton<AssetStore>();
-                    services.AddScoped<MainViewModel>();
-                    services.AddScoped<BuyViewModel>();
 
+                    services.AddScoped<MainViewModel>();
                     services.AddScoped<MainWindow>(s => new MainWindow(s.GetRequiredService<MainViewModel>()));
                 });
         }
