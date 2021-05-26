@@ -9,7 +9,7 @@ using System.Windows.Input;
 
 namespace SimpleTrader.WPF.ViewModels
 {
-    public class BuyViewModel : ViewModelBase
+    public class BuyViewModel : ViewModelBase, ISearchSymbolViewModel
     {
         private string _symbol;
 
@@ -77,11 +77,11 @@ namespace SimpleTrader.WPF.ViewModels
             set => ErrorMessageViewModel.Message = value;
         }
 
-        public MessageViewModel StaticMessageViewModel { get; }
+        public MessageViewModel StatusMessageViewModel { get; }
 
         public string StatusMessage
         {
-            set => StaticMessageViewModel.Message = value;
+            set => StatusMessageViewModel.Message = value;
         }
 
         public ICommand SearchSymbolCommand { get; set; }
@@ -91,7 +91,7 @@ namespace SimpleTrader.WPF.ViewModels
         public BuyViewModel(IStockPriceService stockPriceService, IBuyStockService buyStockService, IAccountStore accountStore)
         {
             ErrorMessageViewModel = new MessageViewModel();
-            StaticMessageViewModel = new MessageViewModel();
+            StatusMessageViewModel = new MessageViewModel();
 
             SearchSymbolCommand = new SearchSymbolCommand(this, stockPriceService);
             BuyStockCommand = new BuyStockCommand(this, buyStockService, accountStore);
