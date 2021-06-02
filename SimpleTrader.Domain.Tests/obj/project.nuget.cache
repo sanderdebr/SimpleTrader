@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "Kql4lVb1brh2sRZpHw9h+HdlqNU9AJDuLZ3vG1fMzQCiSz15ZMfx5SHxf3FG1Ne95cQzvEDrLBUd9SMdbRlsxw==",
+  "dgSpecHash": "v5AN9vwUUOI+CUlIO8jY1dVIoAMOh1dIMAqx2cjSOVIeXD60eWJ4ORXahqxaAtKKXEDlSiGW9Nyd2YraOmUuVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain.Tests\\SimpleTrader.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sande\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
-    "C:\\Users\\sande\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
+    "C:\\Users\\sande\\.nuget\\packages\\microsoft.codecoverage\\16.10.0\\microsoft.codecoverage.16.10.0.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.dotnet.internalabstractions\\1.0.0\\microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
-    "C:\\Users\\sande\\.nuget\\packages\\microsoft.net.test.sdk\\16.9.4\\microsoft.net.test.sdk.16.9.4.nupkg.sha512",
+    "C:\\Users\\sande\\.nuget\\packages\\microsoft.net.test.sdk\\16.10.0\\microsoft.net.test.sdk.16.10.0.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\sande\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.9.4\\microsoft.testplatform.objectmodel.16.9.4.nupkg.sha512",
-    "C:\\Users\\sande\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
+    "C:\\Users\\sande\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.10.0\\microsoft.testplatform.objectmodel.16.10.0.nupkg.sha512",
+    "C:\\Users\\sande\\.nuget\\packages\\microsoft.testplatform.testhost\\16.10.0\\microsoft.testplatform.testhost.16.10.0.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.win32.registry\\4.3.0\\microsoft.win32.registry.4.3.0.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\moq\\4.16.1\\moq.4.16.1.nupkg.sha512",
@@ -78,10 +78,10 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0"
       ]
     }
   ]

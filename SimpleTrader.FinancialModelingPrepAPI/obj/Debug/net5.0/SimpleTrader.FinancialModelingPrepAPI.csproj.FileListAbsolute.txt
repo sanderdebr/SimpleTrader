@@ -1,0 +1,15 @@
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.deps.json
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.dll
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\net5.0\ref\SimpleTrader.FinancialModelingPrepAPI.dll
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.pdb
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\net5.0\SimpleTrader.Domain.dll
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\net5.0\SimpleTrader.Domain.pdb
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.csprojAssemblyReference.cache
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.AssemblyInfoInputs.cache
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.AssemblyInfo.cs
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.csproj.CoreCompileInputs.cache
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.csproj.CopyComplete
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.dll
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\ref\SimpleTrader.FinancialModelingPrepAPI.dll
+C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.pdb

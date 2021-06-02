@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Jlp3Kmi7LNEXvDEefXlXPUVU3rZuCynuw204aK4ZXNouaEBS0r8Z7qQ4C+N07hZKSc/E5rQdB2g3GBEBirRvfA==",
+  "dgSpecHash": "VJGXNWaWzb8e74rVp9xkNpJ5Y/zR9bAo+XvR+zhqoWOZ4ZdRncaiqNZgXjh5iLMx//+PNwlfRKJQJ5FqiPLRyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj",
   "expectedPackageFiles": [
@@ -12,10 +12,10 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.Identity.Core",
       "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
+        "net5.0"
       ]
     }
   ]
