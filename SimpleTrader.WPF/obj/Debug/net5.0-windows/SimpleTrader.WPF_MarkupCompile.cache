@@ -12,8 +12,8 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\sande\Github\SimpleTrader\SimpleTrader.WPF\App.xaml
 15-137292773
 
-56795999444
-246-580686432
+57865430724
+247-511394786
 Controls\AssetListing.xaml;Controls\AssetSummary.xaml;Controls\MajorIndexCard.xaml;Controls\MajorIndexListing.xaml;Controls\NavigationBar.xaml;Controls\SearchSymbolResultPanel.xaml;MainWindow.xaml;Styles\Common.xaml;Styles\NavigationBar.xaml;Views\BuyView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\PortfolioView.xaml;Views\RegisterView.xaml;Views\SellView.xaml;
 
 False

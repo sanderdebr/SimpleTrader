@@ -24,6 +24,9 @@ namespace SimpleTrader.FinancialModelingPrepAPI.Services
 
             MajorIndex majorIndex = await _client.GetAsync<MajorIndex>(uri);
             majorIndex.Type = indexType;
+
+            await Task.Delay(5000);
+
             return majorIndex;
         }
 

@@ -135,3 +135,4 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\ref
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.pdb
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.genruntimeconfig.cache
 C:\Users\sande\Github\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.csproj.AssemblyReference.cache
+C:\Users\sande\Github\SimpleTrader\SimpleTrader.WPF\bin\Debug\net5.0-windows\LoadingSpinnerControl.dll
