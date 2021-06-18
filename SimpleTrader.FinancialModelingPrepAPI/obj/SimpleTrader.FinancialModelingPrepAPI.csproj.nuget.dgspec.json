@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj": {}
+    "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj": {
+    "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
         "projectName": "SimpleTrader.Domain",
-        "projectPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
+        "projectPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
         "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\obj\\",
+        "outputPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sande\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,18 +60,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj": {
+    "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj",
         "projectName": "SimpleTrader.FinancialModelingPrepAPI",
-        "projectPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj",
+        "projectPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj",
         "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\obj\\",
+        "outputPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sande\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj": {
-                "projectPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj"
+              "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj": {
+                "projectPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj"
               }
             }
           }
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

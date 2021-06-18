@@ -39,11 +39,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
       "projectName": "SimpleTrader.Domain",
-      "projectPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
+      "projectPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
       "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\obj\\",
+      "outputPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sande\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -92,7 +92,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   },

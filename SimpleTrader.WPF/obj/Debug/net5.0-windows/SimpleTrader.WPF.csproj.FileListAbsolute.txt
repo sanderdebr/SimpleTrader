@@ -91,7 +91,6 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\net5.0-windows\Sim
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\net5.0-windows\SimpleTrader.Domain.pdb
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\net5.0-windows\SimpleTrader.EntityFramework.pdb
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\bin\Debug\net5.0-windows\SimpleTrader.FinancialModelingPrepAPI.pdb
-C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.csprojAssemblyReference.cache
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\Controls\AssetListing.g.cs
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\Controls\AssetSummary.g.cs
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\Controls\MajorIndexCard.g.cs
@@ -135,3 +134,4 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\Sim
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\ref\SimpleTrader.WPF.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.pdb
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.genruntimeconfig.cache
+C:\Users\sande\Github\SimpleTrader\SimpleTrader.WPF\obj\Debug\net5.0-windows\SimpleTrader.WPF.csproj.AssemblyReference.cache

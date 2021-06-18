@@ -17,7 +17,7 @@ namespace SimpleTrader.WPF.Commands
             set
             {
                 _isExecuting = value;
-                CanExecuteChanged?.Invoke(this, new EventArgs());
+                OnCanExecuteChanged();
             }
         }
 

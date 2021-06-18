@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
 
 namespace SimpleTrader.WPF.ViewModels
 {
@@ -38,6 +37,7 @@ namespace SimpleTrader.WPF.ViewModels
 
             assetViewModels = _filterAssets(assetViewModels);
 
+            DisposeAssets();
             _assets.Clear();
 
             foreach (AssetViewModel viewModel in assetViewModels)
@@ -46,9 +46,25 @@ namespace SimpleTrader.WPF.ViewModels
             }
         }
 
+        private void DisposeAssets()
+        {
+            foreach (AssetViewModel asset in _assets)
+            {
+                asset.Dispose();
+            }
+        }
+
         private void AssetStore_StateChanged()
         {
             ResetAssets();
+        }
+
+        public override void Dispose()
+        {
+            _assetStore.StateChanged -= AssetStore_StateChanged;
+            DisposeAssets();
+
+            base.Dispose();
         }
     }
 }

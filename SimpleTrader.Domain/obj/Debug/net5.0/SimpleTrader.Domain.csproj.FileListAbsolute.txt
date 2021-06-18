@@ -2,7 +2,6 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\bin\Debug\net5.0\SimpleTr
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\bin\Debug\net5.0\SimpleTrader.Domain.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\bin\Debug\net5.0\ref\SimpleTrader.Domain.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\bin\Debug\net5.0\SimpleTrader.Domain.pdb
-C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.csprojAssemblyReference.cache
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.AssemblyInfoInputs.cache
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTr
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\ref\SimpleTrader.Domain.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.pdb
+C:\Users\sande\Github\SimpleTrader\SimpleTrader.Domain\obj\Debug\net5.0\SimpleTrader.Domain.csproj.AssemblyReference.cache

@@ -6561,11 +6561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.WPF\\SimpleTrader.WPF.csproj",
+      "projectUniqueName": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.WPF\\SimpleTrader.WPF.csproj",
       "projectName": "SimpleTrader.WPF",
-      "projectPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.WPF\\SimpleTrader.WPF.csproj",
+      "projectPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.WPF\\SimpleTrader.WPF.csproj",
       "packagesPath": "C:\\Users\\sande\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.WPF\\obj\\",
+      "outputPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.WPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sande\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6582,14 +6582,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj": {
-              "projectPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj"
+            "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj": {
+              "projectPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj"
             },
-            "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.EntityFramework\\SimpleTrader.EntityFramework.csproj": {
-              "projectPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.EntityFramework\\SimpleTrader.EntityFramework.csproj"
+            "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.EntityFramework\\SimpleTrader.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.EntityFramework\\SimpleTrader.EntityFramework.csproj"
             },
-            "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj": {
-              "projectPath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj"
+            "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj": {
+              "projectPath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj"
             }
           }
         }
@@ -6641,7 +6641,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   },

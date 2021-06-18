@@ -33,8 +33,11 @@ namespace SimpleTrader.WPF.ViewModels
             {
                 _password = value;
                 OnPropertyChanged(nameof(Password));
+                OnPropertyChanged(nameof(CanLogin));
             }
         }
+
+        public bool CanLogin => !string.IsNullOrEmpty(Username) && !string.IsNullOrEmpty(Password);
 
         public MessageViewModel ErrorMessageViewModel { get; }
 

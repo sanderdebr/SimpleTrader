@@ -4,7 +4,6 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Deb
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.pdb
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\net5.0\SimpleTrader.Domain.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\bin\Debug\net5.0\SimpleTrader.Domain.pdb
-C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.csprojAssemblyReference.cache
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.AssemblyInfoInputs.cache
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.AssemblyInfo.cs
@@ -13,3 +12,4 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Deb
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\ref\SimpleTrader.FinancialModelingPrepAPI.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.pdb
+C:\Users\sande\Github\SimpleTrader\SimpleTrader.FinancialModelingPrepAPI\obj\Debug\net5.0\SimpleTrader.FinancialModelingPrepAPI.csproj.AssemblyReference.cache

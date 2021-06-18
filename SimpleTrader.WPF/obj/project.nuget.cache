@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XXlFqkCnynFVWVFUJgXEb2ucgdWQeFWUzIg+WAOjdUSq7tzhOsqL27q1220ELZqOdppUCoamsd6ciOQWMn+BXw==",
+  "dgSpecHash": "l+K+qfAhENuTmt7/k59MPjyLlIXjDJ/5KhTY2uCWWlpSKiAzdnqX12blnB+NijpJiwOFoIIBvLttGN6WzbJ8WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.WPF\\SimpleTrader.WPF.csproj",
+  "projectFilePath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.WPF\\SimpleTrader.WPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sande\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",

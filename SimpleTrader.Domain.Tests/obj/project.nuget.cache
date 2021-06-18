@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v5AN9vwUUOI+CUlIO8jY1dVIoAMOh1dIMAqx2cjSOVIeXD60eWJ4ORXahqxaAtKKXEDlSiGW9Nyd2YraOmUuVg==",
+  "dgSpecHash": "IxtqLFCw0uwiQNc6uSuQ9nrCIyMDM8mrWL3uLZpOSgPdj4UV74cmGmjdke1WX2BOQ8IC3joDb+C/O2+Qa+1LTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain.Tests\\SimpleTrader.Domain.Tests.csproj",
+  "projectFilePath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain.Tests\\SimpleTrader.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sande\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",

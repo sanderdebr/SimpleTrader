@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dpd7YtPODV4CiW0lBA+ciPqMZM8Ip8PaL1XXSiewpNjkRT7v4+dQ9yf3v3vDDEvk4WJuuxGYfUwnvmZpGk1hKQ==",
+  "dgSpecHash": "gESDtj4z8jBOiRRvCrkROdDqqNtjiqWowKQQok+8cBgTNSdgETjlfYD00yS3qvfYbaIfJMenhCVQrxL8A01mUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
+  "projectFilePath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.Domain\\SimpleTrader.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512"
   ],

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VJGXNWaWzb8e74rVp9xkNpJ5Y/zR9bAo+XvR+zhqoWOZ4ZdRncaiqNZgXjh5iLMx//+PNwlfRKJQJ5FqiPLRyw==",
+  "dgSpecHash": "CLHTVZKN6b6ttkyy0WrJebfPzf8QxIyin+cNpdckR+NsbzikhW5C7sAl8yqD6Zt3gD6QDuX5LaWIqzDfUX8ZSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sande\\GitHub\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj",
+  "projectFilePath": "C:\\Users\\sande\\Github\\SimpleTrader\\SimpleTrader.FinancialModelingPrepAPI\\SimpleTrader.FinancialModelingPrepAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sande\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
     "C:\\Users\\sande\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"

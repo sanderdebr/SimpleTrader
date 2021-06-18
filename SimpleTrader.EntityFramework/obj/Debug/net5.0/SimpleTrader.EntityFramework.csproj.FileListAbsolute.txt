@@ -6,7 +6,6 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net5.0
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net5.0\SimpleTrader.EntityFramework.pdb
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net5.0\SimpleTrader.Domain.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\bin\Debug\net5.0\SimpleTrader.Domain.pdb
-C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net5.0\SimpleTrader.EntityFramework.csprojAssemblyReference.cache
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net5.0\SimpleTrader.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net5.0\SimpleTrader.EntityFramework.AssemblyInfoInputs.cache
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net5.0\SimpleTrader.EntityFramework.AssemblyInfo.cs
@@ -16,3 +15,4 @@ C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net5.0
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net5.0\ref\SimpleTrader.EntityFramework.dll
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net5.0\SimpleTrader.EntityFramework.pdb
 C:\Users\sande\GitHub\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net5.0\SimpleTrader.EntityFramework.genruntimeconfig.cache
+C:\Users\sande\Github\SimpleTrader\SimpleTrader.EntityFramework\obj\Debug\net5.0\SimpleTrader.EntityFramework.csproj.AssemblyReference.cache
